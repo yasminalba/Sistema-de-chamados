@@ -63,54 +63,6 @@ Durante o desenvolvimento deste projeto, pratiquei:
 
 ---
 
-## 🚀 Como executar o projeto
-
-### Pré-requisitos
-
-Para executar o projeto localmente, é necessário ter:
-
-- [Bun](https://bun.sh/) instalado
-- Uma conta no [Supabase](https://supabase.com/)
-- Um projeto criado no Supabase
-
-### 1. Clone o repositório
-
-```bash
-git clone https://github.com/yasminalba/Sistema-de-chamados.git
-cd Sistema-de-chamados
-```
-
-### 2. Instale as dependências
-
-```bash
-bun install
-```
-
-### 3. Configure as variáveis de ambiente
-
-Copie o arquivo de exemplo:
-
-```bash
-cp .env.example .env
-```
-
-Abra o `.env` e preencha com as credenciais do seu projeto Supabase (disponíveis em **Project Settings → API** no painel do Supabase):
-
-```env
-VITE_SUPABASE_URL=sua-url-aqui
-VITE_SUPABASE_ANON_KEY=sua-chave-aqui
-```
-
-### 4. Execute o projeto
-
-```bash
-bun run dev
-```
-
-O app estará disponível em `http://localhost:5173` (ou na porta indicada no terminal).
-
----
-
 ## 📦 Deploy
 
 O projeto está configurado para deploy automático na [Vercel](https://vercel.com/). Basta conectar o repositório e adicionar as mesmas variáveis de ambiente do `.env` nas configurações do projeto na Vercel.
@@ -129,12 +81,6 @@ Sistema-de-chamados/
 ├── vite.config.ts
 └── .env.example
 ```
-
----
-
-## 📄 Licença
-
-Este projeto está sob a licença MIT. Sinta-se à vontade para usar e adaptar.
 
 ---
 
